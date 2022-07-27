@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:regular,700);
+/* --------------------------------------------- */
+/* Обнулення */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+/*---------------------------------*/
+
+body {
+  min-width: 320px;
+  font-family: Comfortaa;
+  font-weight: 400;
+  font-size: 20px;
+  color: #486958;
+}
+.wrapper {
+}
+.main {
+  flex: 1 1 auto;
+}
+[class*='__container'] {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 30px;
+}
+[class*='__title'] {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #1c2323;
+}
+
+/*----------------------------------*/
+
+.header {
+}
+.header__container {
+}
+.header__logo {
+}
+.header__title {
+  text-align: center;
+}
+
+/*----------------------------------*/
+
+.main {
+}
+.info {
+}
+.info__container {
+  display: flex;
+}
+.info__content {
+  flex: 0 1 65%;
+}
+.info__title {
+  font-size: 40px;
+}
+.info__item {
+  padding-top: 20px;
+  width: 515px;
+}
+.info__item span {
+  font-weight: bold;
+  font-size: 23px;
+}
+.info__image {
+  width: 450px;
+  border-radius: 50%;
+  flex: 0 1 35%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+/*-------------------------------------------*/
+
+.footer {
+}
+.footer__container {
+  background: #ccf0e6;
+  margin-top: 30px;
+}
+.contact {
+  flex: 0 1 50%;
+}
+.contact__title {
+  font-size: 40px;
+  text-align: center;
+}
+.contact__mail {
+  padding-top: 20px;
+}
+.contact__mail span {
+  font-weight: bold;
+  font-size: 23px;
+}
+.contact__phone {
+  padding-top: 20px;
+}
+.contact__phone span {
+  font-weight: bold;
+  font-size: 23px;
+}
+.contact__social {
+  flex: 0 1 50%;
+  padding-top: 48px;
+}
+.button__instagram {
+  background-color: #58a9a5;
+  border-radius: 20px 20px 20px 0px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  padding: 14px 30px;
+}
+.button__facebook {
+  background: #58a9a5;
+  border-radius: 20px 20px 20px 0px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  padding: 14px 30px;
+}
+
+/*--------------------------------*/
